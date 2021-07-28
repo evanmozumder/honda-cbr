@@ -1,0 +1,22 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+/* header style  */
+.bg-header {
+  color: white;
+  background-color: #264653;
+}
+.ad-text {
+  font-size: 16px;
+  color: #e0e0e0;
+}
+.button {
+  color: white;
+  background-color: #e76f51;
+}
+.button a {
+  color: white;
+}
