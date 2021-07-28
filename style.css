@@ -20,3 +20,9 @@ a {
 .button a {
   color: white;
 }
+.text-color {
+  color: #e76f51;
+}
+.f-img {
+  filter: grayscale(100%);
+}
