@@ -46,4 +46,62 @@ a {
   .desktop {
     display: none;
   }
+  .shop img {
+    width: 30%;
+  }
+  .shop a {
+    display: flex;
+    border: none !important;
+  }
+  .shop {
+    grid-row-gap: 30px;
+  }
+}
+
+/* ---------------
+      eid offer style  
+  -----------------------------*/
+.eid-offer img {
+  width: 100%;
+}
+.eid-offer {
+  position: relative;
+}
+.offer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+}
+.text {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.eid-offer:hover .offer {
+  display: block;
+  opacity: 1;
+}
+.eid-offer:hover .text {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+/* ----------------
+      newsletter style  
+---------------------------------*/
+
+#email {
+  padding: 5px;
+}
+.shop a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shop a img {
+  max-width: 90%;
 }
