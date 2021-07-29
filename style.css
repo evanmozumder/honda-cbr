@@ -3,6 +3,7 @@ body {
 }
 a {
   text-decoration: none;
+  color: white !important;
 }
 /* header style  */
 .bg-header {
@@ -26,6 +27,23 @@ a {
 .f-img {
   filter: grayscale(100%);
 }
-.accordian-text {
+.gray-text {
   color: #7e848c;
+}
+.mobile {
+  display: none;
+}
+@media only screen and (min-width: 1000px) {
+  .app {
+    position: relative;
+    right: 5rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .mobile {
+    display: block;
+  }
+  .desktop {
+    display: none;
+  }
 }
