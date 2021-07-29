@@ -26,3 +26,6 @@ a {
 .f-img {
   filter: grayscale(100%);
 }
+.accordian-text {
+  color: #7e848c;
+}
