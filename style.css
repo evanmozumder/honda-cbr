@@ -1,11 +1,22 @@
+/*---------------
+       common styles  
+    --------------------*/
 body {
   font-family: "Poppins", sans-serif;
 }
+
 a {
   text-decoration: none;
   color: white !important;
 }
-/* header style  */
+
+.gray-text {
+  color: #7e848c;
+}
+
+/* ---------------
+       header styles 
+  ------------------------- */
 .bg-header {
   color: white;
   background-color: #264653;
@@ -18,49 +29,22 @@ a {
   color: white;
   background-color: #e76f51;
 }
-.button a {
-  color: white;
-}
 .text-color {
   color: #e76f51;
 }
-.f-img {
+
+/* ------------------
+         featured bikes sytles 
+    -------------------------------- */
+
+.f-img-gray {
   filter: grayscale(100%);
-}
-.gray-text {
-  color: #7e848c;
-}
-.mobile {
-  display: none;
-}
-@media only screen and (min-width: 1000px) {
-  .app {
-    position: relative;
-    right: 5rem;
-  }
-}
-@media only screen and (max-width: 600px) {
-  .mobile {
-    display: block;
-  }
-  .desktop {
-    display: none;
-  }
-  .shop img {
-    width: 30%;
-  }
-  .shop a {
-    display: flex;
-    border: none !important;
-  }
-  .shop {
-    grid-row-gap: 30px;
-  }
 }
 
 /* ---------------
-      eid offer style  
+      eid offer styles
   -----------------------------*/
+
 .eid-offer img {
   width: 100%;
 }
@@ -75,7 +59,7 @@ a {
   bottom: 0;
   display: none;
 }
-.text {
+.offer-img {
   position: relative;
   text-align: center;
   color: white;
@@ -84,19 +68,16 @@ a {
   display: block;
   opacity: 1;
 }
-.eid-offer:hover .text {
+.eid-offer:hover .offer-img {
   width: 100%;
   height: 100%;
   margin: 0 auto;
 }
 
 /* ----------------
-      newsletter style  
----------------------------------*/
+       shop list styles 
+  ---------------------------- */
 
-#email {
-  padding: 5px;
-}
 .shop a {
   display: flex;
   justify-content: center;
@@ -104,4 +85,56 @@ a {
 }
 .shop a img {
   max-width: 90%;
+}
+
+/* ----------------
+      newsletter styles  
+---------------------------------*/
+
+#email {
+  padding: 5px;
+}
+
+/* -------------- 
+        footer copyright styles  
+    -------------------------- */
+
+.mobile {
+  display: none;
+}
+
+/* -------------------
+         responsive for mobile device
+    --------------------------------------  */
+
+@media only screen and (min-width: 1000px) {
+  /* footer apple app store and google play store styles  */
+  .app {
+    position: relative;
+    right: 5rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* footer copyright styles  */
+  .mobile {
+    display: block;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  /* shop list styles  */
+  .shop {
+    grid-row-gap: 30px;
+  }
+
+  .shop a {
+    display: flex;
+    border: none !important;
+  }
+
+  .shop img {
+    width: 30%;
+  }
 }
